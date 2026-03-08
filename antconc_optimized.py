@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-"""AntConc-like corpus toolkit with multilingual/Thai-aware tokenization.
+"""KKU-Corpus-Analytics corpus toolkit with multilingual/Thai-aware tokenization.
 
 Features
 - Corpus loading from uploaded .txt files
