@@ -297,6 +297,9 @@ def build_all_results(analyzer: CorpusAnalyzer, reference_analyzer: Optional[Cor
 
 st.markdown("<div class='app-title'></div>", unsafe_allow_html=True)
 st.markdown("<div class='app-title'>KKU Corpus Analyzer</div>", unsafe_allow_html=True)
+st.write(
+    "Analyze uploaded text corpora with a clean GUI inspired by AntConc. "   
+)
 st.markdown("<div class='app-subtitle'>Desktop-like sidebar, centered KWIC, clickable distribution plot, multi-color highlighting, Thai-aware tokenization, and workbook export with metadata summary.</div>", unsafe_allow_html=True)
 
 with st.sidebar:
