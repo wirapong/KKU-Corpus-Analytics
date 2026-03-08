@@ -1,4 +1,4 @@
-# AntConc-like Streamlit App
+# KKU Corpus Analytics Streamlit App
 
 A lightweight corpus analysis app inspired by AntConc.
 
