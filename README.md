@@ -1,6 +1,8 @@
 # KKU Corpus Analytics Streamlit App
 
 A lightweight corpus analysis app inspired by AntConc.
+Based on this research article:
+Sameephet, B., Poonpon, K., Pradutshon, N., & Chansanam, W. (2025). Automated Vocabulary Profiling of TOEIC Listening Materials: A CEFR-Aligned Approach for EFL Learners. HighTech and Innovation Journal, 6(3), 991–1012. https://doi.org/10.28991/HIJ-2025-06-03-015
 
 ## Features
 - Word List
