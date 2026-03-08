@@ -22,7 +22,7 @@ from antconc_optimized import (
     THAI_STOPWORDS,
 )
 
-st.set_page_config(page_title="AntConc-like GUI", page_icon="📚", layout="wide")
+st.set_page_config(page_title="KKU Corpus Analytics GUI", page_icon="📚", layout="wide")
 
 st.markdown(
     """
@@ -295,8 +295,8 @@ def build_all_results(analyzer: CorpusAnalyzer, reference_analyzer: Optional[Cor
         results["keyword_list"] = analyzer.keyword_list(reference_analyzer, min_freq=2)
     return results
 
-
-st.markdown("<div class='app-title'>AntConc-like Corpus Analyzer</div>", unsafe_allow_html=True)
+st.markdown("<div class='app-title'></div>", unsafe_allow_html=True)
+st.markdown("<div class='app-title'>KKU Corpus Analyzer</div>", unsafe_allow_html=True)
 st.markdown("<div class='app-subtitle'>Desktop-like sidebar, centered KWIC, clickable distribution plot, multi-color highlighting, Thai-aware tokenization, and workbook export with metadata summary.</div>", unsafe_allow_html=True)
 
 with st.sidebar:
